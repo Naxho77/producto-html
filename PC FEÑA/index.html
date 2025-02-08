@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Especificaciones del PC</title>
-    <link rel="stylesheet" href="Pc.css">
+  <meta charset="UTF-8">
+  <!-- Hace que la página sea responsiva en dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificaciones del PC</title>
+  <link rel="stylesheet" href="Pc.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <div class="carousel">
-                <div class="carousel-item">
-                    <img src="Images/PC1.jpg" alt="Imagen 1" class="carousel-image">
-                    <div class="pc-name">Lenovo Idea Pad 3</div>
-                </div>
-                <div class="carousel-item">
-                    <img src="Images/PC_2.jpg" alt="Imagen 2" class="carousel-image">
-                    <div class="pc-name">Lenovo Idea Pad 3</div>
-                </div>
-                <div class="carousel-item">
-                    <img src="Images/PC_5.jpg" alt="Imagen 3" class="carousel-image">
-                    <div class="pc-name">Lenovo Idea Pad 3</div>
-                </div>
-                <div class="carousel-item">
-                    <img src="Images/PC_4.jpg" alt="Imagen 4" class="carousel-image">
-                    <div class="pc-name">Lenovo Idea Pad 3</div>
-                </div>
-                <div class="carousel-controls">
-                    <button class="prev" onclick="changeImage(-1)">&#10094;</button>
-                    <button class="next" onclick="changeImage(1)">&#10095;</button>
-                </div>
-            </div>
+  <div class="container">
+    <div class="left">
+      <div class="carousel">
+        <div class="carousel-item">
+          <img src="Images/PC1.jpg" alt="Imagen 1" class="carousel-image">
+          <div class="pc-name">Lenovo Idea Pad 3</div>
         </div>
-        <div class="right">
-            <h2>Especificaciones del PC</h2>
-            <ul>
-                <li><strong>Procesador:</strong> AMD Ryzen 3 3250U (2600 MHz - 3500 MHz)</li>
-                <li><strong>Núcleos:</strong> 2 núcleos / 4 hilos</li>
-                <li><strong>RAM:</strong> 8 GB DDR4 (2400 MHz)</li>
-                <li><strong>Pantalla:</strong> LED 14.0" (1920x1080) / 60 Hz</li>
-                <li><strong>Batería:</strong> 3 celdas (45000 mWh)</li>
-                <li><strong>Almacenamiento:</strong> SSD 128 GB</li>
-                <li><strong>Tarjetas de video:</strong> AMD Ryzen 3 3250, Radeon Graphics, 2600 Mhz</li>
-                <li><strong>Puertos:</strong> 1x HDMI 1.4 / 1.4b, 1x USB 2.0</li>
-                <li><strong>Dimensiones:</strong> 327 x 241 x 20 mm</li>
-                <li><strong>Sistema Operativo:</strong> Microsoft Windows 11 Home</li>
-                <li><strong>Idioma del teclado:</strong> Español</li>
-            </ul>
-            <h3>Detalles adicionales:</h4>
-            <br><ul>
-                <li>La bisagra de la tapa permite que esta se incline fácilmente hacia atrás. Cuando se supera la barrera de los 90°, la tapa cede sin resistencia y llega hasta los 180°.</li>
-                <li>El ventilador emite un sonido similar a un "raspado" cuando el PC se mueve. Este sonido es más notorio cuando se manipula el dispositivo o se realiza un movimiento durante su uso.</li>
-            </ul>
+        <div class="carousel-item">
+          <img src="Images/PC_2.jpg" alt="Imagen 2" class="carousel-image">
+          <div class="pc-name">Lenovo Idea Pad 3</div>
         </div>
+        <div class="carousel-item">
+          <img src="Images/PC_5.jpg" alt="Imagen 3" class="carousel-image">
+          <div class="pc-name">Lenovo Idea Pad 3</div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/PC_4.jpg" alt="Imagen 4" class="carousel-image">
+          <div class="pc-name">Lenovo Idea Pad 3</div>
+        </div>
+        <div class="carousel-controls">
+          <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+          <button class="next" onclick="changeImage(1)">&#10095;</button>
+        </div>
+      </div>
     </div>
+    <div class="right">
+      <h2>Especificaciones del PC</h2>
+      <ul>
+        <li><strong>Procesador:</strong> AMD Ryzen 3 3250U (2600 MHz - 3500 MHz)</li>
+        <li><strong>Núcleos:</strong> 2 núcleos / 4 hilos</li>
+        <li><strong>RAM:</strong> 8 GB DDR4 (2400 MHz)</li>
+        <li><strong>Pantalla:</strong> LED 14.0" (1920x1080) / 60 Hz</li>
+        <li><strong>Batería:</strong> 3 celdas (45000 mWh)</li>
+        <li><strong>Almacenamiento:</strong> SSD 128 GB</li>
+        <li><strong>Tarjetas de video:</strong> AMD Ryzen 3 3250, Radeon Graphics, 2600 Mhz</li>
+        <li><strong>Puertos:</strong> 1x HDMI 1.4 / 1.4b, 1x USB 2.0</li>
+        <li><strong>Dimensiones:</strong> 327 x 241 x 20 mm</li>
+        <li><strong>Sistema Operativo:</strong> Microsoft Windows 11 Home</li>
+        <li><strong>Idioma del teclado:</strong> Español</li>
+      </ul>
+      <h3>Detalles adicionales:</h3>
+      <br>
+      <ul>
+        <li>La bisagra de la tapa permite que esta se incline fácilmente hacia atrás. Cuando se supera la barrera de los 90°, la tapa cede sin resistencia y llega hasta los 180°.</li>
+        <li>El ventilador emite un sonido similar a un "raspado" cuando el PC se mueve. Este sonido es más notorio cuando se manipula el dispositivo o se realiza un movimiento durante su uso.</li>
+      </ul>
+    </div>
+  </div>
 
-    <script src="Pc.js"></script>
+  <script src="Pc.js"></script>
 </body>
 </html>
